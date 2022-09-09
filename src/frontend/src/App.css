@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 8vh;
   pointer-events: none;
 }
 
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.select-box {
+  max-width: 300px;
+  margin: 1% auto;
+}
+
+.select-box > div {
+  padding: 1%;
+}
+
+.input-output {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.equals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 50px;
+  font-size: 5rem;
 }
